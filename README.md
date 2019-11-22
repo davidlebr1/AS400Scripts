@@ -1,6 +1,28 @@
 # AS400Scripts
 Useful scripts for AS400 testing
 
+```
+
+                                   Sign On           
+                                               System  . . . . . :   TEST 
+                                               Subsystem . . . . :   TEST     
+                                               Display . . . . . :   TEST 
+
+                User  . . . . . . . . . . . . . .              
+                Password  . . . . . . . . . . . .              
+                Program/procedure . . . . . . . .              
+                Menu  . . . . . . . . . . . . . .              
+                Current library . . . . . . . . .              
+
+            +-------------------------------------------------------------------+                     
+            |  Unauthorized access is stricly prohibited and subject to legal   |           
+            |             proceedings before courts of law.                     |  
+            +-------------------------------------------------------------------+                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+                                        (C) COPYRIGHT IBM CORP. 1980, 2015.
+```
+
 
 ## AS400 Users Enumeration
 
