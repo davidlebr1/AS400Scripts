@@ -6,6 +6,7 @@ Useful scripts for AS400 testing
 
 :warning: Each attempt does a login tentative. Be careful with the script for lockout.
 
+
 ```
 python as400_enum_users.py -h                                                         
 
@@ -24,3 +25,16 @@ required arguments:
   -f FILENAME, --filename FILENAME
                         File that contain the users to enumerate
 ```
+
+### Example 
+```
+python as400_enum_users.py -i 10.0.0.1 -f potential-users.txt -o valid-users.txt -v
+
+Enumerate Users on AS400 using telnet
+
+[+] 6 Users loaded
+[+] Enumeration started. Each attempt does a login tentative.
+[*] PSOUAA is a valid user
+[+] Writing valid user to file
+```
+
